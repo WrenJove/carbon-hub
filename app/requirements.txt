@@ -1,0 +1,5 @@
+# 只有界面层需要第三方库，核算内核零依赖。
+# 安装（在 app 目录下）：
+#   python -m venv .venv
+#   .venv\Scripts\python.exe -m pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+streamlit>=1.60

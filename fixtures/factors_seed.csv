@@ -1,0 +1,15 @@
+id,category,unit,factor,scope,region,year,source
+cn_grid_2021,electricity,kWh,0.5810,2,CN,2021,生态环境部+国家统计局 关于发布2021年电力二氧化碳排放因子的公告 全国电力平均
+cn_grid_2021_nm,electricity,kWh,0.5568,2,CN,2021,同上 不含市场化交易非化石能源电量口径
+cn_grid_2022,electricity,kWh,0.5703,2,CN,2022,生态环境部+国家统计局 关于发布2022年电力二氧化碳排放因子的公告 全国电力平均
+cn_grid_2022_nm,electricity,kWh,0.5366,2,CN,2022,同上 不含市场化交易非化石能源电量口径
+cn_grid_2023,electricity,kWh,0.5306,2,CN,2023,生态环境部+国家统计局 关于发布2023年电力二氧化碳排放因子的公告 全国电力平均
+cn_natural_gas,gas,m3,2.1622,1,CN,2021,省级温室气体清单编制指南 天然气 约2.16 tCO2/kNm3
+cn_gasoline,fuel,L,2.3200,1,CN,2021,中国产品全生命周期温室气体排放系数集 汽油 约2.92 tCO2/t 按密度0.745换算
+cn_water,water,m3,0.3000,3,CN,2021,行业估算区间0.3~1.0取低值 非官方值 使用前须核实
+cn_didi_car,transport,km,0.1920,3,CN,2021,城市网约车 单位里程估算
+cn_metro,transport,person-km,0.0430,3,CN,2021,城市轨道交通 单位人次公里
+cn_hsr,transport,person-km,0.0290,3,CN,2021,高铁 单位人次公里
+cn_delivery_parcel,delivery,count,0.1000,3,CN,2021,单件快递 估算
+cn_meal_takeout,diet,meal,0.4800,3,CN,2021,一餐外卖 估算
+cn_shopping_cny,shopping,CNY,0.0150,3,CN,2021,消费品支出强度 估算

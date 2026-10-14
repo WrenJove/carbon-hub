@@ -1,0 +1,127 @@
+{
+  "source": "用户 2026-10-13 提供的材料。PDF 走文字层解析，图片走视觉识别。",
+  "subject": "示例用户",
+  "own_documents": {
+    "fuel_receipts": [
+      {
+        "type": "fuel_receipt",
+        "form": "电子发票（增值税专用发票）PDF",
+        "file": "dzfp_26322000008359685941_常州市东亭加油站有限公司_20261011160546.pdf",
+        "invoice_no": "26322000008359685941",
+        "date": "2026-10-11",
+        "seller": "常州市东亭加油站有限公司",
+        "item": "*汽油*95号车用汽油(VIB)",
+        "unit": "L",
+        "quantity": 28.23,
+        "unit_price": 8.07,
+        "amount": 227.88,
+        "tax": 29.62,
+        "total": 250.00
+      }
+    ],
+    "utility_bills": [
+      {
+        "type": "utility_bill",
+        "form": "电子发票 PDF",
+        "file": "sdp_26327000001753526497_20261013231329.pdf",
+        "invoice_no": "26327000001753526497",
+        "account_no": "EXAMPLE-ACCOUNT-A",
+        "address": "示例小区X幢XXX室",
+        "seller": "国网江苏省电力有限公司江阴市供电分公司",
+        "period": "2026-07-01/2026-07-31",
+        "kwh": 60,
+        "bill_amount": 28,
+        "unit_price": 0.4067
+      },
+      {
+        "type": "utility_bill",
+        "form": "电子发票 PDF",
+        "file": "sdp_26327000001753526496_20261013231149.pdf",
+        "invoice_no": "26327000001753526496",
+        "account_no": "EXAMPLE-ACCOUNT-A",
+        "address": "示例小区X幢XXX室",
+        "seller": "国网江苏省电力有限公司江阴市供电分公司",
+        "period": "2026-08-01/2026-08-31",
+        "kwh": 112,
+        "bill_amount": 53,
+        "unit_price": 0.4125
+      },
+      {
+        "type": "utility_bill",
+        "form": "电子发票 PDF",
+        "file": "sdp_26327000001753526495_20261013231118.pdf",
+        "invoice_no": "26327000001753526495",
+        "account_no": "EXAMPLE-ACCOUNT-A",
+        "address": "示例小区X幢XXX室",
+        "seller": "国网江苏省电力有限公司江阴市供电分公司",
+        "period": "2026-09-01/2026-09-30",
+        "kwh": 72,
+        "bill_amount": 34,
+        "unit_price": 0.4118
+      }
+    ],
+    "app_screenshots": [
+      {
+        "note": "网上国网 App 截图",
+        "file": "8e0e97710fc8524a2cab24309ed69200.jpg",
+        "account_no": "EXAMPLE-ACCOUNT-A",
+        "address": "示例小区X幢XXX室",
+        "period": "2026-07-01/2026-07-31",
+        "kwh": 60,
+        "bill_amount": 28,
+        "peak_kwh": 35,
+        "valley_kwh": 25,
+        "peak_price": 0.5583,
+        "valley_price": 0.3583
+      },
+      {
+        "note": "网上国网 App 截图",
+        "file": "86311882b3d2b608d78191af4e217664.jpg",
+        "account_no": "EXAMPLE-ACCOUNT-A",
+        "address": "示例小区X幢XXX室",
+        "period": "2026-08-01/2026-08-31",
+        "kwh": 112,
+        "bill_amount": 53,
+        "peak_kwh": 64,
+        "valley_kwh": 48
+      },
+      {
+        "note": "网上国网 App 截图",
+        "file": "2c1b319e8f9bfc7ec03af5fdd8daad86.jpg",
+        "account_no": "EXAMPLE-ACCOUNT-A",
+        "address": "示例小区X幢XXX室",
+        "period": "2026-09-01/2026-09-30",
+        "kwh": 72,
+        "bill_amount": 34,
+        "peak_kwh": 41,
+        "valley_kwh": 31
+      },
+      {
+        "note": "另一个户号，不同版式，用于测多户并存",
+        "file": "3968162dcb795e8db4658b39078bd3d8.jpg",
+        "account_no": "EXAMPLE-ACCOUNT-B",
+        "address": "示例公寓X栋XXX室",
+        "period": "2026-09-01/2026-09-30",
+        "kwh": 124,
+        "bill_amount": 58,
+        "peak_kwh": 70,
+        "valley_kwh": 54
+      }
+    ]
+  },
+  "public_samples": {
+    "note": "以下 5 张带抖音水印，是公开渠道截图，不是本人单据。仅用于测版式兼容，演示时必须注明来源，不得当作自有数据。",
+    "files": [
+      "ba1d3d5ae53e20110d3dda9feb385e0f.jpg",
+      "10e0cafdb8ba14189263a338561d61d5.jpg",
+      "45b7f6b9b1e2b82f8244619d1ff85a66.jpg",
+      "5754726512e10d6c3a1d2a9875935fba.jpg",
+      "8f0748b8f64e41730b621ecbd7fa3a73.jpg"
+    ],
+    "covers": [
+      "手写表格收费收据：一表多费（水/电/租金），单位为度与 m3，含上期量/本期量/实用量",
+      "国网安徽客户电费清单：打印件，含抄表指数、倍率、档期",
+      "国家电网电费通知单：商户用电，含上次/本次抄表示数"
+    ]
+  }
+}
